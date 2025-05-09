@@ -6,15 +6,18 @@
   <link rel="stylesheet" href="css/admin.css" />
 </head>
 <body>
+  <div class="container">
   <h2>Admin Panel</h2>
   <form id="project-form">
     <input type="text" id="name" placeholder="Proekt nomi" required />
     <input type="url" id="vercel" placeholder="Vercel URL" required />
-    <input type="url" id="github" placeholder="GitHub URL" required />
-    <button type="submit">Qo‘shish</button>
+    <input type="url" id="github" placeholder="GitHub URL" required /><br>
+    <button type="submit" class="button_1">Qo‘shishni hohlaysizmi?</button>
+
   </form>
   <div id="project-list"></div>
-  <button onclick="window.location.href='index.html'">Ortga</button>
+  <button onclick="window.location.href='index.html'" class="button_2">Ortga</button>
   <script src="js/admin.js"></script>
+  </div>
 </body>
 </html>
